@@ -1,0 +1,8 @@
+.banner__conteudo {
+    align-items: center;
+    background: var(--branco);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 46%;
+}

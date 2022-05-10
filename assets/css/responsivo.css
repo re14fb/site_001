@@ -1,0 +1,166 @@
+@media screen and (min-width: 0) {
+    
+    .cabecalho, .sobre {
+        margin: 0 1.5rem;
+    }
+
+    .sobre__conteudo {
+        display: none;
+    }
+
+    .sobre__titulo {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .pessoas {
+        padding: 1.5rem;
+    }
+
+    .pessoa__imagem--img1, .pessoa__imagem--img3 {
+        display: none;
+    }
+
+    .pessoa__conteudo {
+        display: none;
+    }
+
+    .pessoa {
+        width: 100%;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        padding: .5rem 1.5rem .5rem 1.5rem;
+    }
+
+    .contato__titulo {
+        margin: 0 auto;
+    }
+
+    .contato__form {
+        width: 100%;
+    }
+
+    .rodape__linha {
+        width: 5px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho, .sobre {
+        margin: 0 2rem;
+    }
+
+    .sobre__conteudo {
+        display: flex;
+        width: 50%;
+    }
+
+    .sobre__descricao {
+        font-size: 1rem; 
+        margin-bottom: 2rem;
+    }
+
+    .sobre__botao {
+        font-size: 1rem;
+        padding: .5rem;
+    }
+
+    .sobre__titulo {
+        width: 50%;
+    }
+
+    .pessoas {
+        padding: 2rem;
+    }
+
+    .pessoas__caixa {
+        width: 100%;
+    }
+
+    .pessoa {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .pessoa__imagem {
+        display: block;
+        height: 50%;
+    }
+
+    .pessoa__conteudo {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .pessoa__titulo {
+        margin: 1rem 0;
+    }
+
+    .pessoa__descricao {
+        font-size: 1rem;
+        line-height: 1.9;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: row;
+        padding: 2rem;
+    }
+
+    .contato__titulo {
+        width: 50%;
+    }
+
+    .contato__form {
+        width: 50%;
+    }
+
+    .rodape__linha {
+        width: 10rem;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .cabecalho, .sobre {
+        margin: 0 4rem;
+    }
+
+    .sobre__botao {
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+
+    .sobre__descricao {
+        font-size: 1.1rem; 
+        margin-bottom: 4rem;
+    }
+
+    .pessoas {
+        padding: 4rem;
+    }
+
+    .pessoa__titulo {
+        margin: 2rem 0;
+    }
+
+    .pessoa__descricao {
+        font-size: 1.1rem;
+    }
+
+    .contato {
+        padding: 4rem;
+    }
+}
+
+

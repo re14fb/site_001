@@ -1,0 +1,25 @@
+:root {
+    --azul: #2bc4ff;
+    --branco: #fdfdfd;
+    --cinza: #e7e7e7;
+    --rosa-claro: #fadae5;
+    --rosa-medio: #e64980;
+    --rosa-escuro: #240510;
+}
+
+body {
+    font-family: 'Kalam', cursive;
+}
+
+.btn {
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.link {
+    color: var(--branco);
+    text-decoration: none;
+}

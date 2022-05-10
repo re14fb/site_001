@@ -1,0 +1,5 @@
+.pessoa__descricao {
+    color: var(--rosa-medio);
+    padding: 0 2rem;
+    text-align: justify;
+}

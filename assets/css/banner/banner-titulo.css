@@ -1,0 +1,6 @@
+.banner__titulo {
+    background: var(--branco);
+    color: var(--rosa-medio);
+    font-size: 4rem;
+    font-weight: bold;
+}

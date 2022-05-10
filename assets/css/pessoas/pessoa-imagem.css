@@ -1,0 +1,5 @@
+.pessoa__imagem {
+    height: 50%;
+    object-fit: cover;
+    width: inherit;
+}

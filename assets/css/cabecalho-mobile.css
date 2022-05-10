@@ -1,0 +1,73 @@
+
+@media (max-width: 767px) {
+    .cabecalho__lista {
+        background: var(--cinza);
+        display: block;
+        height: 0;
+        overflow-y: hidden;
+        position: absolute;
+        right: 0;
+        top: 90px;
+        transition: .6s;
+        visibility: hidden;
+        width: 100%;
+        z-index: 1000;
+    }
+    
+    #nav.active .cabecalho__lista {
+        height: calc(100vh - 90px);
+        overflow: auto;
+        visibility: visible;
+    }
+    
+    
+    .cabecalho__link {
+        border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+        padding: 1rem 0;
+        margin: 0 1rem;
+    }
+    
+    .cabecalho__botao {
+        align-items: center;
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        font-size: 1rem;
+        font-weight: bold;
+        gap: .5rem;
+        padding: .5rem 1rem;
+
+    }
+    
+    .hamburger {
+        border-top:2px solid;
+        display: block;
+        width: 20px;
+    }
+    
+    .hamburger::after, .hamburger::before{
+        background: currentColor;
+        content: '';
+        display: block;
+        height: 2px;
+        margin-top: 5px;
+        position: relative;
+        transition: .3s;
+        width: 20px;
+    }
+    
+    #nav.active .hamburger {
+        border-top: none;
+    }
+    
+    #nav.active .hamburger::after {
+        top: -7px;
+        transform: rotate(135deg);
+    }
+    
+    #nav.active .hamburger::before {
+        top: 0px;
+        transform: rotate(-135deg);
+    }
+}

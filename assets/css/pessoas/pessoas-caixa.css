@@ -1,0 +1,5 @@
+.pessoas__caixa {
+    background: var(--branco);
+    display: flex;
+    height: 100%;
+}

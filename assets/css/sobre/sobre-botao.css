@@ -1,0 +1,21 @@
+.sobre__botao {
+    background: transparent;
+    border:  1px solid var(--rosa-medio);   
+    box-shadow: 1px 1px 2px var(--rosa-medio);
+    color: var(--rosa-medio);
+    text-decoration: none;
+}
+
+.sobre__botao:hover {
+    background: var(--rosa-medio);
+    color: var(--branco);
+    opacity: 0.9;
+}
+
+.sobre__botao:active {
+    background: var(--rosa-escuro);
+    border: var(--rosa-escuro);
+    box-shadow: none;
+    color: var(--branco);
+    opacity: 1;
+}

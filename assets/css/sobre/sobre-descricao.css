@@ -1,0 +1,5 @@
+.sobre__descricao {
+    color: var(--rosa-medio);
+    line-height: 2;
+    text-align: justify;
+}

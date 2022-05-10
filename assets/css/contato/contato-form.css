@@ -1,0 +1,6 @@
+.contato__form {
+    align-items: initial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

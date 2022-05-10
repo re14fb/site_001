@@ -1,0 +1,6 @@
+.contato__label {
+    color: var(--rosa-medio);
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: justify;
+}

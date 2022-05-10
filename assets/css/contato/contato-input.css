@@ -1,0 +1,13 @@
+.contato__input {
+    border: 1px solid var(--rosa-medio);
+    border-radius: 5px;
+    color: var(--rosa-escuro);
+    font-size: 1rem; 
+    margin-bottom: 1rem;
+    padding: .5rem;
+    text-align: justify;
+}
+
+.contato__input:focus {
+    outline: 0;
+}

@@ -1,0 +1,39 @@
+.rodape {
+    align-items: center;
+    background: var(--rosa-escuro);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: center;
+    opacity: 0.95;
+}
+
+.rodape__linha {
+    border: 1px solid var(--branco);
+}
+
+.rodape__redes {
+    align-items: center;
+    display: flex;
+    height: 80%;
+}
+
+.rodape__rede {
+    color: var(--branco);
+    padding: 1rem;
+}
+
+.azul:hover {
+    color: var(--azul);
+}
+
+.rosa:hover {
+    color: var(--rosa-medio);
+}
+
+.rodape__texto {
+    color: var(--branco);
+    margin-bottom: 1rem;
+    text-align: center;
+}

@@ -1,0 +1,6 @@
+.pessoa__titulo {
+    background: var(--branco);
+    color: var(--rosa-medio);
+    font-size: 3rem;
+    font-weight: bold;
+}
