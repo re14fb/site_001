@@ -40,6 +40,7 @@
 
     .contato__titulo {
         margin: 0 auto;
+        font-size: 2.5rem;
     }
 
     .contato__form {
@@ -61,14 +62,18 @@
         width: 50%;
     }
 
+    .sobre__descricao--terceiro {
+        display: none;
+    }
+
     .sobre__descricao {
-        font-size: 1rem; 
-        margin-bottom: 2rem;
+        font-size: 1.1rem; 
+        margin-bottom: 1.5rem;
     }
 
     .sobre__botao {
         font-size: 1rem;
-        padding: .5rem;
+        padding: 1rem;
     }
 
     .sobre__titulo {
@@ -92,7 +97,7 @@
     }
 
     .pessoa__imagem {
-        display: block;
+        display: flex;
         height: 50%;
     }
 
@@ -119,6 +124,7 @@
 
     .contato__titulo {
         width: 50%;
+        font-size: 3rem;
     }
 
     .contato__form {
@@ -141,9 +147,12 @@
         padding: 1rem;
     }
 
+    .sobre__descricao--terceiro {
+        display: flex;
+    }
+
     .sobre__descricao {
-        font-size: 1.1rem; 
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
     }
 
     .pessoas {

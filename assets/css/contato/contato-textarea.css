@@ -10,5 +10,5 @@
 }
 
 .contato__textarea:focus {
-    outline: 0;
+    outline: 1px solid var(--rosa-medio);
 }

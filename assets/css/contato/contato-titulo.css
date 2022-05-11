@@ -4,6 +4,5 @@
     color: var(--rosa-medio);
     display: flex;
     justify-content: center;
-    font-size: 3rem;
     font-weight: bold;
 }

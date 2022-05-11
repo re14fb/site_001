@@ -10,6 +10,7 @@
 }
 
 .rodape__linha {
+    background: var(--branco);
     border: 1px solid var(--branco);
 }
 

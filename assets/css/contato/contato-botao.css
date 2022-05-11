@@ -1,15 +1,11 @@
 .contato__botao {
-    background: var(--rosa-medio);
-    border: 1px solid var(--rosa-medio);
-    color: var(--branco);
-    padding: .5rem;
+    padding: 1rem;
 }
 
-.contato__botao:hover {
-    opacity: 0.9;
+.contato__botao:hover, .contato__botao:focus {
+    opacity: 0.7;
 }
 
 .contato__botao:active {
-    background: var(--rosa-escuro);
-    border: var(--rosa-escuro);
+    opacity: 1;
 }
