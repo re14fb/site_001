@@ -5,7 +5,7 @@
 * JavaScript
 
 ## Visualização de tela
-![maior](https://user-images.githubusercontent.com/91619200/167531862-63b7e8f7-71c3-4b70-9bb5-28b8d74a1811.jpeg)
+![pagina](https://user-images.githubusercontent.com/91619200/167963383-c9c6cfeb-a922-4e0d-8759-aab1389152e2.jpeg)
 
 
 
