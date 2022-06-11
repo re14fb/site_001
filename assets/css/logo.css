@@ -1,7 +1,16 @@
+.cabecalho__logo--link {
+    height: 38%;
+}
+
 .cabecalho__logo {
-    height: 85%;
+    height: 100%;
+}
+
+
+.rodape__logo--link {
+    height: 25%;
 }
 
 .rodape__logo {
-    height: 70%;
+    height: 100%;
 }
