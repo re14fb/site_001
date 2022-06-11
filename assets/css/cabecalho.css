@@ -19,7 +19,7 @@
     padding: .5rem;
 }
 
-.cabecalho__item:hover {
+.cabecalho__item:hover, .cabecalho__item:focus {
     background: rgba(0, 0, 0, .05);
     border-radius: 3px;
 }
